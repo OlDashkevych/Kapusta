@@ -1,0 +1,8 @@
+.FormLabels {
+  width: 272px;
+  margin: 0 auto 38px;
+  padding-top: 16px;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+}

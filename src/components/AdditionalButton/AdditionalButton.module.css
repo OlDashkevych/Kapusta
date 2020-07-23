@@ -1,0 +1,17 @@
+.Mobile_Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-top: 2px solid rgb(238, 238, 238);
+  border-top-left-radius: 16%;
+  border-top-right-radius: 16%;
+}
+.Tablet_Container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 270px;
+}

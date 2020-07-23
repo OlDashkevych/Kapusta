@@ -1,0 +1,27 @@
+.GoBackButton {
+  width: max-content;
+  padding: 0;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+}
+.link {
+  color: #52555f;
+  transition: all 0.2s linear;
+}
+.link:hover {
+  color: #ff6c0a;
+}
+.goBackIcon {
+  height: 11px;
+  width: 16px;
+  margin-right: 6px;
+  fill: #52555f;
+}

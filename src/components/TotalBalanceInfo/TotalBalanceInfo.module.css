@@ -1,0 +1,44 @@
+.MobileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 278px;
+  height: 73px;
+  font-family: 'Roboto', sans-serif;
+}
+.TabletContainer {
+  composes: MobileContainer;
+  flex-direction: row;
+  width: 313px;
+  height: 45px;
+}
+.MobileBalanceOnDay {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #52555f;
+}
+.TabletBalanceOnDay {
+  composes: MobileBalanceOnDay;
+  text-transform: none;
+}
+.BalanceCost {
+  font-weight: 700;
+  color: #000;
+}
+.MobileBalance {
+  font-size: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding: 14px 47px;
+  background-color: #f4f6fb;
+}
+.TabletBalance {
+  composes: MobileBalance;
+  padding: 14px 29px;
+  font-size: 13px;
+  background-color: #f4f6fb;
+  border: 2px solid #ffffff;
+}

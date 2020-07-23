@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  width: 280px;
+  height: 30px;
+}
+.Default_container {
+  composes: container;
+  height: 50px;
+  align-items: flex-end;
+  margin: 0 0 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #52555f;
+  font-weight: 500;
+  margin-right: 18px;
+}
+.data {
+  font-weight: 900;
+  color: #000;
+}
+.button {
+  border: 1px solid transparent;
+  background: none;
+}
+.svg {
+  fill: #ff812d;
+}
+.svgLeft {
+  composes: svg;
+  transform: rotate(180deg);
+}

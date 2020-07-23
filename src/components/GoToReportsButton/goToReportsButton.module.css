@@ -1,0 +1,35 @@
+.link {
+  /* width: 280px; */
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  border-width: 0px;
+  text-decoration: none;
+}
+
+.link:hover svg,
+.link:hover .text {
+  transition: all 0.3s linear;
+  fill: rgb(255, 108, 10);
+  color: rgb(255, 108, 10);
+}
+
+svg {
+  fill: #52555f;
+}
+
+.container {
+  width: 150px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #52555f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: right;
+}

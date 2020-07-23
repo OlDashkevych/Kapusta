@@ -1,0 +1,33 @@
+html * {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: Roboto, sans-serif;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  font-size: 11px;
+  font-family: 'Roboto';
+  transition: all 0s linear;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #bec0c5;
+}

@@ -1,0 +1,93 @@
+.MobileContainer {
+  width: 278px;
+  height: 85px;
+  box-shadow: 7px 12.5px 12.5px rgba(179, 185, 200, 0.25);
+  border-radius: 25px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TabletContainer {
+  width: 689px;
+  height: 51px;
+  box-shadow: 7px 12.5px 12.5px rgba(179, 185, 200, 0.25);
+  border-radius: 25px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DesktopContainer {
+  width: 942px;
+  height: 51px;
+  box-shadow: 7px 12.5px 12.5px rgba(179, 185, 200, 0.25);
+  border-radius: 25px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ExpensesMobile::before {
+  right: 50%;
+  top: 2%;
+  position: absolute;
+  content: '';
+  height: 60px;
+  border-right: 3px solid #f4f6fb;
+}
+.ExpensesTablet::before {
+  right: 0;
+  top: -4px;
+  position: absolute;
+  content: '';
+  height: 31px;
+  border-right: 3px solid #f4f6fb;
+}
+
+.ExpensesMobile,
+.IncomeMobile {
+  color: #52555f;
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  justify-content: center;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+}
+.ExpensesTablet,
+.IncomeTablet {
+  color: #52555f;
+  width: 260px;
+  justify-content: center;
+  display: flex;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  position: relative;
+}
+.ExpensesNumberMobile {
+  color: #e21e31;
+  font-weight: 500;
+}
+.IncomeNumberMobile {
+  color: #447b46;
+  font-weight: 500;
+}
+.ExpensesNumberTablet {
+  color: #e21e31;
+  font-weight: 500;
+  padding-left: 16px;
+}
+.IncomeNumberTablet {
+  color: #447b46;
+  font-weight: 500;
+  padding-left: 16px;
+}

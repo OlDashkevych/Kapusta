@@ -1,0 +1,44 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid transparent;
+  color: #000000;
+  background: #fafafc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.mobileLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  height: 53px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all, 0.3s;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(252, 130, 42);
+  box-shadow: 2px 2px 5px 0px rgba(255, 107, 8, 0.34);
+  border: 2px rgba(244, 246, 251, 0) solid;
+  border-radius: 16px;
+}
+.activelink {
+  z-index: 2;
+  composes: link;
+  color: #fa7c2e;
+  background: #ffffff;
+}
+
+.link:last-child {
+  margin-left: -10px;
+}

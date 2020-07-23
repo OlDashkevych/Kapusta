@@ -1,0 +1,33 @@
+.BudgetSummaryContainerDekstop,
+.BudgetSummaryContainerTablet,
+.BudgetSummaryContainerMobile {
+  margin: 0 auto;
+}
+
+.BudgetSummaryContainerDekstop {
+  width: 943px;
+}
+
+.BudgetSummaryContainerTablet {
+  width: 689px;
+}
+
+.BudgetSummaryContainerMobile {
+  width: 278px;
+}
+
+.boxTotalMonthTablet {
+  display: flex;
+  align-items: center;
+  padding-bottom: 41px;
+}
+
+.boxTotalMonthTablet .MonthPicker {
+  order: 1;
+}
+.boxTotalMonthMobile {
+  padding-bottom: 31px;
+}
+.MonthPickerMobile {
+  padding-bottom: 36px;
+}
